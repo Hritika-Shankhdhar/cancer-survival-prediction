@@ -32,12 +32,11 @@ Environment: Jupyter Notebook
 Handled categorical variables using one-hot encoding.
 Normalized numerical features using StandardScaler.
 Balanced class distribution with SMOTE due to survival imbalance.
-| Model               | Accuracy | F1 Score | AUC  |
-| ------------------- | -------- | -------- | ---- |
-| Logistic Regression | 0.52     | 0.30     | 0.51 |
-| Random Forest       | 0.69     | 0.20     | 0.50 |
-| Stacking Classifier | 0.70     | 0.18     | 0.50 |
-| Voting Classifier   | 0.67     | 0.22     | 0.50 |
+
+Logistic Regression → Accuracy: 0.52 | F1: 0.30 | AUC: 0.51
+Random Forest → Accuracy: 0.69 | F1: 0.20 | AUC: 0.50
+Stacking Classifier → Accuracy: 0.70 | F1: 0.18 | AUC: 0.50
+Voting Classifier → Accuracy: 0.67 | F1: 0.22 | AUC: 0.50
 
 Random Forest achieved the highest accuracy, while Logistic Regression generalized better.
 
@@ -55,11 +54,9 @@ Cluster 2: Healthier individuals with lower BMI & cholesterol
 
 4. Feature Importance (Random Forest)
 
-| Feature           | Importance |
-| ----------------- | ---------- |
-| Age               | 0.259      |
-| BMI               | 0.256      |
-| Cholesterol Level | 0.255      |
+Age → 0.259
+BMI → 0.256
+Cholesterol Level → 0.255
 
  Key Insights
 
